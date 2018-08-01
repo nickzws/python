@@ -74,7 +74,7 @@ $ chmod a+x hello.py
 C:\Users\care\Desktop\python> python learning.py
 ```
 
-## 1.5 输出
+## 1.5 输出print\(\)
 
 1. print\(\)函数也可以接受多个字符串，用逗号“,”隔开，就可以连成一串输出、输出整数、计算结果
 
@@ -116,9 +116,5 @@ hello zhangsan
 print("1024*768=",1024*768)//注意必须是双引号
 ```
 
-
-
 进入桌面文件dir \`C:\Users\care\Desktop\python&gt;\`
-
-
 
