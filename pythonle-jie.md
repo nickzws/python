@@ -24,14 +24,14 @@ Type "help", "copyright", "credits" or "license" for more information
 >>>exit()
 ```
 
-  2. 计算
+1. 计算
 
 ```
 >>> 100+200
 300
 ```
 
-3. 打印指定文字 \`print\(\)\`函数
+1. 打印指定文字 \`print\(\)\`函数
 
 ```
 >>> print('hello, world')
@@ -116,14 +116,9 @@ hello zhangsan
 print("1024*768=",1024*768)//注意必须是双引号
 ```
 
----
 
-1. pycharm破解地址：
 
-[http://idea.liyang.io/](http://idea.liyang.io/)
+进入桌面文件dir \`C:\Users\care\Desktop\python&gt;\`
 
-1. 进入桌面文件dir \`C:\Users\care\Desktop\python&gt;\`
-
-2. 
 
 
