@@ -87,9 +87,10 @@ False
 
 * 布尔值可以用and、or和not运算。
 
-1. and运算，所有都为True才是 True
-2. or运算是或运算，只要其中有一个为True，or运算结果就是True
-3. not运算是非运算，它是一个单目运算符，把True变成False，False变成True：
+* and运算，所有都为True才是 True
+
+* or运算是或运算，只要其中有一个为True，or运算结果就是True
+* not运算是非运算，它是一个单目运算符，把True变成False，False变成True：
 
 ## 空值
 
@@ -107,5 +108,20 @@ t_007 = 'T007'
 Answer = True
 ```
 
-**在Python中，等号`=`是赋值语句,Python同样是从右到左运行。**
+**在Python中，等号**`=`**是赋值语句,Python同样是从右到左运行。**
+
+```
+x = 10
+x = x + 2
+```
+
+从内存角度看Python解释器a = 'ABC'
+
+   1. 在内存中创建了一个`'ABC'`的字符串；
+
+    2. 在内存中创建了一个名为`a`的变量，并把它指向`'ABC'`。
+
+
+
+
 
