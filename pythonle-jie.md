@@ -132,3 +132,37 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 安装3.7，直接官网下载安装包
 
+```
+python3 
+Python 3.7.0 (v3.7.0:1bf9cc5093, Jun 26 2018, 23:26:24) 
+[Clang 6.0 (clang-600.0.57)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 
+```
+
+```
+➜  ~ pwd
+/Users/dgtle
+➜  ~ cd python 
+➜  python vi hello.py
+➜  python chmod a+x hello.py 
+➜  python ./hello.py 
+hello world
+```
+
+```
+➜  python ./learning.py 
+zsh: permission denied: ./learning.py
+➜  python chmod a+x learning.py 
+➜  python ./learning.py        
+Ready for Python code on port 39093...
+Press Ctrl + C to exit...
+```
+
+```
+#!/usr/local/bin/python3
+print('i','love','python')
+```
+
+
+
