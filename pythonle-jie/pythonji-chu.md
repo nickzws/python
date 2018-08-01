@@ -71,7 +71,5 @@ world ''')
 
 ## 布尔值
 
-两种（True、False）
-
-
+两种（True、False），严格区分大小写
 
