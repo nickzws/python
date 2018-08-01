@@ -118,3 +118,17 @@ print("1024*768=",1024*768)//注意必须是双引号
 
 进入桌面文件dir \`C:\Users\care\Desktop\python&gt;\`
 
+## 补充
+
+Mac上使用python
+
+```
+python
+Python 2.7.10 (default, Jul 15 2017, 17:16:57) 
+[GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.31)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+```
+
+安装3.7
+
