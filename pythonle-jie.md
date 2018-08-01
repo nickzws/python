@@ -130,5 +130,5 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
 
-安装3.7
+安装3.7，直接官网下载安装包
 
