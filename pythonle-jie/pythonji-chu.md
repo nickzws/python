@@ -71,5 +71,23 @@ world ''')
 
 ## 布尔值
 
-两种（True、False），严格区分大小写
+* 两种（True、False），严格区分大小写
+
+```
+>>> True
+True
+>>> False
+False
+>>> 3>2
+True
+>>> 5<3
+False
+>>> 
+```
+
+* 布尔值可以用and、or和not运算。
+
+and运算，所有都为True才是 True
+
+
 
