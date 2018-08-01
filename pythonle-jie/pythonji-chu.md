@@ -56,7 +56,18 @@ print('I\'m \"ok\" !')     I'm "ok" !
 # print('\\\n\\') #\\ \n
 print('\\\t\\')  #\    \
 print(r'\\\t\\') #\\\t\\
+
+print(
+   '''
+    line1 
+    line2 
+    line3 
+   '''
+)
+
+print(r'''hello,\n
+world ''')
 ```
 
-
+布尔值
 
