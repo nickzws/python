@@ -132,7 +132,7 @@ ages = int\(age\)
 
 如果输入的abc呢？需要用到错误和调试
 
-#  5-Python中的循环
+# 5-Python中的循环
 
 **循环有两种：for...in循环和while循环，只要条件满足，就不断循环，条件不满足时退出循环**
 
@@ -172,57 +172,14 @@ print(sum)
 
 **continue  **continue语句会直接继续下一轮循环
 
-\`\`\`
-
-&gt;&gt;&gt; n = 1
-
-&gt;&gt;&gt; while n&lt;=100:
-
 ```
-if n&gt; 10:
-
-    break
-
-print\(n\)
-
-n = n+1
-
-print\('END'\)
+n = 0
+while n < 10:
+    n = n + 1
+    if n % 2 == 0: # 如果n是偶数，执行continue语句
+        continue # continue语句会直接继续下一轮循环，后续的print()语句不会执行
+    print(n)
 ```
-
-\`\`\`
-
-continue的作用是提前结束本轮循环，并直接开始下一轮循环
-
-\`\`\`
-
-&gt;&gt;&gt; n = 0
-
-&gt;&gt;&gt; while n&lt;10:
-
-```
-n = n +1
-
-if n%2 == 0:
-
-    continue
-
-print\(n\)
-```
-
-1
-
-3
-
-5
-
-7
-
-9
-
-&gt;&gt;&gt;
-
-\`\`\`
 
 # 6-使用dict和set
 
