@@ -185,11 +185,22 @@ while n < 10:
 
 ## 1. dict： \(类似json\)
 
-Python内置了字典：dict的支持，dict全称dictionary，在其他语言中也称为map，使用键-值（key-value）存储，具有极快的查找速度。
+**Python内置了字典：dict的支持，dict全称dictionary，在其他语言中也称为map，使用键-值（key-value）存储，具有极快的查找速度。**
 
 产生原由：为了可以快速找出键值对，否则用两个list存储key和value，要找出key-value就得全部遍历很慢，通过key值准确快速定位出value的位置
 
-特性：
+**例子**
+
+```
+names = ['Michael', 'Bob', 'Tracy']
+scores = [95, 75, 85]
+
+>>> d = {'Michael': 95, 'Bob': 75, 'Tracy': 85}
+>>> d['Michael']
+95
+```
+
+**特性：**
 
 1. key只能对应一个value
 
