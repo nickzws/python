@@ -77,17 +77,19 @@ if age >= 18:
     print('adult')
 ```
 
-## if-else
+## if-else {#test}
 
 ```
-a = 3
+age = 3
 if age >= 18:
-print\('adult'\)
+    print('your age is', age)
+    print('adult')
 else:
-print\('kid'\)
+    print('your age is', age)
+    print('teenager')
 ```
 
-## if-elif-else
+## if-elif-else \(可以多个elif\)
 
 ```
 a = 3
