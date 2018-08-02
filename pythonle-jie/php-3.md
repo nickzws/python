@@ -92,13 +92,13 @@ else:
 ## if-elif-else \(可以多个elif\)
 
 ```
-a = 3
+age = 3
 if age >= 18:
-print\('adult'\)
-elif age >=6:
-print\('teenager'\)
+    print('adult')
+elif age >= 6:
+    print('teenager')
 else:
-print\('kid'\)
+    print('kid')
 ```
 
 ## if的缩写
