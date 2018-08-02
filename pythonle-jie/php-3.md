@@ -210,13 +210,19 @@ scores = [95, 75, 85]
 
    1. d\['Thomas'\]此key值不存在，会报错，可以提前判断key值是否存在_ ** 'Thomas' in d   返回false**_
 
-   2. 
+   2. **二是通过dict提供的get\(\)方法，如果key不存在，可以返回None，或者自己指定的value**
+
+      ```
+      >>> d.get('Thomas')
+      >>> d.get('Thomas', -1)
+      -1
+      ```
 
 4. 删除key用pop\(key\)，对应value一起删除\` d.pop\('zhangsan'\)\`
 
 5. dict内部存放的顺序和key放入的顺序是没有关系的
 
-6. dictd的key必须是不可变对象
+6. dictd的key必须是**不可变对象 **~~** '**这是因为dict根据key来计算value的存储位置，如果每次计算相同的key得出的结果不同，那dict内部就完全混乱了**'**~~
 
 7. 通过key找value：key计算位置的算法称为哈希算法（Hash）。
 
@@ -224,15 +230,7 @@ scores = [95, 75, 85]
 
 9. 通过get（）判断\`d. get\('zhangsan'\)\`不存在返回None（不显示），或者指定返回内容\`d. ger\('zhangsan',-1\)\`返回-1
 
-\`\`\`
 
-&gt;&gt;&gt; d = {'zhangsan':12,'li':15,'wangwu':18}
-
-&gt;&gt;&gt; d\['zhangsan'\]
-
-12
-
-\`\`\`
 
 ## dict和list的对比：
 
