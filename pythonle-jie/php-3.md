@@ -113,12 +113,13 @@ if x:
 ## inptu默认输入的是字符串
 
 ```
->>> age = input()
-20
->>> if age <18:
-print\('未成年'\)
+age = 3
+if age >= 18:
+    print('your age is', age)
+    print('adult')
 else:
-print\('成年人'\)
+    print('your age is', age)
+    print('teenager')
 Traceback (most recent call last):
 File "<pyshell#39>", line 1, in <module>
 if age &lt;18:
@@ -130,6 +131,10 @@ TypeError: '<' not supported between instances of 'str' and 'int'
 ages = int\(age\)
 
 如果输入的abc呢？需要用到错误和调试
+
+
+
+
 
 \#\#\#\# 5-Python中的循环
 
