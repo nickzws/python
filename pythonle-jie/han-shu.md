@@ -10,7 +10,13 @@ help\(abs\)  查看用法
 
 报错：TypeError\(\)
 
+# 数据类型转换
 
+int\(\)
 
-数据类型转换
+float\(\)
+
+str\(\)
+
+bool\(\)
 
