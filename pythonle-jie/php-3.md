@@ -206,7 +206,11 @@ scores = [95, 75, 85]
 
 2. 重复赋值会被覆盖（\`&gt;&gt;&gt; d\['zhangsan'\] =20\`）
 
-3. key不存在会报错，避免错误的两种办法
+3. **key不存在会报错，避免错误的两种办法**
+
+   1. d\['Thomas'\]此key值不存在，会报错，可以提前判断key值是否存在_ ** 'Thomas' in d   返回false**_
+
+   2. 
 
 4. 删除key用pop\(key\)，对应value一起删除\` d.pop\('zhangsan'\)\`
 
