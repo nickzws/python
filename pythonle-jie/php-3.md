@@ -132,67 +132,45 @@ ages = int\(age\)
 
 如果输入的abc呢？需要用到错误和调试
 
+#  5-Python中的循环
 
+**循环有两种：for...in循环和while循环，只要条件满足，就不断循环，条件不满足时退出循环**
 
+## for...in循环
 
+**ython的循环有两种，**
 
-\#\#\#\# 5-Python中的循环
+**一种是for...in循环，依次把list或tuple中的每个元素迭代出来，看例子：**
 
-循环有两种：for...in循环和while循环，只要条件满足，就不断循环，条件不满足时退出循环
-
-1. for...in循环
-
-\`\`\`
-
-names = \['Michael', 'Bob', 'Tracy'\]
-
+```
+names = ['Michael', 'Bob', 'Tracy']
 for name in names:
-
-```
-print\(name\)
+    print(name)
 ```
 
-\`\`\`
-
-\`\`\`
-
+```
 sum = 0
-
-for x in \[1, 2, 3, 4, 5, 6, 7, 8, 9, 10\]:
-
-```
-sum = sum + x
+for x in [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]:
+    sum = sum + x
+print(sum)
 ```
 
-print\(sum\)
+**第二种循环是while循环，只要条件满足，就不断循环，条件不满足时退出循环。比如我们要计算100以内所有奇数之和，可以用while循环实现：**
 
-\`\`\`
+**while**
 
-求1到100之和，range\(101\)
-
-1. while循环
-
-\`\`\`
-
+```
 sum = 0
-
 n = 99
-
-while n &gt; 0:
-
-```
-sum = sum + n
-
-n = n - 2
+while n > 0:
+    sum = sum + n
+    n = n - 2
+print(sum)
 ```
 
-print\(sum\)
+**breake     **break是提前结束循环。
 
-\`\`\`
-
-1. break和continue  
-
-break是退出循环
+**continue  **continue语句会直接继续下一轮循环
 
 \`\`\`
 
