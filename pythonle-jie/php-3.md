@@ -103,11 +103,11 @@ else:
 
 ## if的缩写
 
-只要x是非零数值、非空字符串、非空list等，就判断为True，否则为False。
+**只要x是非零数值、非空字符串、非空list等，就判断为True，否则为False。**
 
 ```
 if x:
-print\('True'\)
+   print('True')
 ```
 
 ## inptu默认输入的是字符串
